@@ -36,7 +36,7 @@ This project implements a portfolio optimization model aimed at maximizing the S
 - In the main script, replace the placeholder API key with your actual API key:
 - fred = Fred(api_key='YOUR_API_KEY')
 
-##Usage
+## Usage
 Run the Application:
 Execute the script in your terminal or command prompt
 Input Tickers:
