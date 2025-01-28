@@ -27,21 +27,18 @@ This project implements a portfolio optimization model aimed at maximizing the S
 - Python 3.x
 - Libraries: Install the required libraries using pip:
 
-###Setting Up Your Environment
+### Setting Up Your Environment
 - Clone the Repository (if applicable):
 
-Obtain a FRED API Key:
-Sign up for an account at FRED and request your API key.
-Update the API Key in the Code:
-In the main script, replace the placeholder API key with your actual API key:
-fred = Fred(api_key='YOUR_API_KEY')
+#### Obtain a FRED API Key:
+- Sign up for an account at FRED and request your API key.
+- Update the API Key in the Code:
+- In the main script, replace the placeholder API key with your actual API key:
+- fred = Fred(api_key='YOUR_API_KEY')
 
 ##Usage
 Run the Application:
-Execute the script in your terminal or command prompt:
-bash
-
-python portfolio_optimizer.py
+Execute the script in your terminal or command prompt
 Input Tickers:
 Enter the stock or ETF tickers in the input field, separated by commas (e.g., AAPL, MSFT, GOOG).
 Optimize Portfolio:
